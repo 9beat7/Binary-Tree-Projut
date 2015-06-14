@@ -90,7 +90,7 @@ void tampilData()
 			switch (pil)
 			{
 			case 1:
-				tampilData();
+				tampilSemuaData();
 				break;
 			case 2:
 				tambahKarakter();
