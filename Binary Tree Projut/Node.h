@@ -1,5 +1,7 @@
+#include <fstream>
 #include <iostream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -7,5 +9,3 @@ class Node
 {
 
 };
-
-void bacaFile();
