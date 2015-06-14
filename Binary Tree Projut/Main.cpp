@@ -9,6 +9,8 @@ void kurangKarakter();
 void tampilSemuaData();
 void tampilKarakterUmur();
 void tampilKarakterAlamat();
+void keluar();
+void tulisFile();
 
 string input;
 
@@ -47,6 +49,7 @@ void menuUtama()
 				kurangKarakter();
 				break;
 			case 4:
+				keluar();
 				break;
 			}
 		}
@@ -91,6 +94,7 @@ void tampilData()
 				kurangKarakter();
 				break;
 			case 4:
+				menuUtama();
 				break;
 			}
 		}
@@ -129,4 +133,9 @@ void tampilKarakterUmur()
 void tampilKarakterAlamat()
 {
 
+}
+
+void keluar()
+{
+	tulisFile();
 }

@@ -20,3 +20,8 @@ void bacaFile()
 		cout << "nama: " << nama << " umur: " << umur << " alamat: " << alamat << '\n'; // buat ngetest bisa baca file atau ngga
 	}
 }
+
+void tulisFile()
+{
+	out << "test apakah aku kelihatan?";
+}
