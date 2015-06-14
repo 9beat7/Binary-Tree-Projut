@@ -1,3 +1,8 @@
+#include <cstdio>
+#include <iostream>
+#include <windows.h>
+#include <string>
+#include<cstdlib>
 #include "Node.h"
 #include "Tree.h"
 
